@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+}
+h1{
+  font-size: 1300%;
+  margin: 40px 0px 20px;
+  text-align: center;
+  animation: color-change 1s linear infinite;
+  font-weight: bold;
+}
+@keyframes color-change {
+  0%,50.4%{
+    color:red;
+  }
+  50.5%,100%{
+    color:yellow;
+  }
+}
+img{
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+p{
+ font-size: 150%;
+ margin: 75px;
+ text-align: center;
+ color: white;
+}
+strong{
+  font-size: 110%;
+  color: red;
+}

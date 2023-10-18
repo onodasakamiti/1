@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="入力.css">
+  <title>ご購入手続き</title>
+</head>
+<body>
+  <header>
+    <img src="グルグル7zom.png" alt="glegel7" width="300">
+  </header>
+  <p class="購入手続き">Nphone ご購入手続き</p>
+  <p class="kakutei">
+    次のフォームに必要事項をご入力のうえ、「購入を確定」ボタンを押してください
+  </p>
+  <p class="haisou" >
+    <strong>nphone 配送情報登録</strong>
+  </p>
+  <form method="post" action="a2.html" target="_blank">
+   <table align="center">
+     <tr>
+       <th>名前</th>
+       <td><input type="text" name="NAME" placeholder="例）山田" required>　<input type="text" name="NAME" placeholder="例）太郎" required></td>
+     </tr>
+     <tr>
+       <th>生年月日</th>
+       <td><input type="date" name="birthday" required></td>
+     </tr>
+     <tr>
+       <th>血液型</th>
+       <td><input type="radio" name="blood type">A型
+           <input type="radio" name="blood type">B型
+           <input type="radio" name="blood type">O型
+           <input type="radio" name="blood type">AB型
+       </td>
+     </tr>
+     <tr>
+       <th>身長<br>
+           <p class="半角">（半角入力）</p></th>
+       <td><input type="text" name="height" placeholder="例）172cm" required></td>
+     </tr>
+     <tr>
+      <th>在校名</th>
+      <td><input type="text" name="like" placeholder="学校名" required></td>
+     </tr>
+     <tr>
+       <th>欲しいもの</th>
+       <td><input type="text" name="like" placeholder="例）ゲーム" required></td>
+     </tr>
+     <tr>
+       <th>夢</th>
+       <td><input type="text" name="hate" placeholder="例）日本一周" required></td>
+     </tr>
+     <tr>
+      <th>好きな食べ物</th>
+      <td><input type="text" name="hate" placeholder="例）天ぷら" required></td>
+     </tr>
+   </table>
+   <div class="ボタン">
+    <input type="reset" value="取消する">
+    <button onclick="audio()">購入を確定</button>
+   </div>
+   <audio id="ボタン_audio">
+    <source src="警告音.mp3" type="audio/mp3">
+   </audio>
+  </form>
+</body>
+</html>

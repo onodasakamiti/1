@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+}
+header{
+  margin: 0;
+  text-align: center;
+  background-color: rgb(215, 215, 215);
+}
+.購入手続き{
+  background-color: #e5e5e5;
+  margin: 20px 150px 10px;
+  padding: 0px 0px 0px 15px;
+  font-size: 35px;
+  font-weight: bold;
+  border-left: solid 15px red; 
+}
+.kakutei{
+  margin: 30px 162px 15px;
+}
+.haisou{
+  font-size: 18px;
+  margin: 0px 160px 20px;
+  padding: 0px 0px 5px 10px;
+  border-bottom: solid 3px red;
+}
+.半角{
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: red;
+}
+table{
+  width: 77.5%;
+}
+table,th,td{
+  border-collapse: collapse;
+  border: solid 1px #aaaaaa;
+}
+th,td{
+  padding: 40px;
+}
+th{
+  padding: 15px 0px 0px 20px;
+  vertical-align: top;
+  text-align: left;
+  width: 200px;
+  background: #78a1b253;
+}
+.ボタン{
+ padding: 20px 0px 0px 0px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+button{
+  font-size: 17.5px;
+  margin: 10px 0px 50px;
+  padding: 4px 60px 4px 60px;
+  color: white;
+  background-color: #539bd7;
+  border-color: #539bd7;
+  border-radius: 7.5px;
+}
+input[type="reset"]{
+  padding: 4px 68.7px 4px 68.7px;
+  font-size: 17.5px;
+  color: white;
+  background-color: #539bd7;
+  border-color: #539bd7;
+  border-radius: 7.5px;
+}

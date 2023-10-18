@@ -1,0 +1,155 @@
+body{
+  margin: 0px;
+}
+header{
+  margin: 0;
+  text-align: center;
+  background-color: rgb(215, 215, 215)
+}
+a{
+  color: blue;
+}
+h1{
+  text-align: center;
+  color: red;
+}
+.おめでとう{
+  text-align: center;
+  padding: 0px 0px 25px 0px;
+}
+.photo{
+  text-align: center;
+}
+.クリック{
+  background-color: rgb(235, 235, 235);
+  width: 580px;
+  padding: 0px 0px 7.5px 0px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.詳細{
+  text-align: left;
+  line-height: 32.5px;
+  padding: 35px 0px 10px;
+}
+.iphone{
+  padding: 30px 50px 0px;
+}
+.iphone14promax{
+  font-size: 145%;
+  line-height: 2.5;
+}
+.数量{
+  color: white;
+  background-color: red;
+  padding: 4.25px 7.25px;
+  border-radius: 7px;
+}
+.十五万{
+  color: red;
+}
+.¥0{
+  color: rgb(80, 185, 60);
+}
+.white{
+  text-align: center;
+  color: white;
+}
+button{
+  border-width: 0px;
+  border-radius: 12.5px;
+  padding: 5px;
+  width: 97%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 125%;
+  letter-spacing: 5px;
+  color: white;
+  background-color: rgb(0, 190, 0);
+}
+.commentheader{
+  font-size: 125%;
+  margin: -2px auto;
+  margin-top: 30px;
+  width: 580px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid rgb(200, 200, 200);
+  border-radius: 10px 10px 0px 0px;
+}
+.comment-slide{
+  border: 2px solid rgb(200, 200, 200);
+  background-color: rgb(240, 240, 240);
+  text-align: left;
+  width: 580px;
+  margin: 0px auto;
+  height: 450px;
+  overflow: auto;
+  padding: 0px 0px 7.5px 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+.コメント{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px 20px 5px;
+}
+.山田コメント{
+  margin: 0;
+  text-align: left;
+  line-height: 33px;
+}
+.田中コメント{
+  margin: 0;
+  padding: 0px 223px 0px 0px;
+  text-align: left;
+  line-height: 33px;
+}
+.佐藤コメント{
+  margin: 0;
+  padding: 0px 207px 0px 0px;
+  text-align: left;
+  line-height: 33px; 
+}
+.寺山コメント{
+  margin: 0;
+  padding: 0px 47px 0px 0px;
+  text-align: left;
+  line-height: 33px; 
+}
+.本田コメント{
+  margin: 0;
+  padding: 0px 223px 0px 0px;
+  text-align: left;
+  line-height: 33px; 
+}
+.福井コメント{
+  margin: 0;
+  padding: 0px 223px 0px 0px;
+  text-align: left;
+  line-height: 33px; 
+}
+.山口コメント{
+  margin: 0;
+  padding: 0px 223px 0px 0px;
+  text-align: left;
+  line-height: 33px; 
+}
+.前田コメント{
+  margin: 0;
+  padding: 0px 0px 0px 7px;
+  text-align: left;
+}
+.野村コメント{
+  margin: 0;
+  padding: 0px 0px 0px 7px;
+  text-align: left;
+}
+.吉田コメント{
+  margin: 0;
+  padding: 0px 0px 0px 7px;
+  text-align: left;
+}
+span{
+  color: rgb(90, 90, 90);
+}
